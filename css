@@ -1,0 +1,23 @@
+button{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+    font-size: 100px;
+    border-left: 0;
+    border-top: 0;
+    vertical-align: top;
+    
+}
+
+#bt02, #bt12, #bt22{
+    border-right: 0;
+}
+
+#bt20, #bt21, #bt22{
+    border-bottom: 0;
+}
+
+button:disabled{
+    border-color: black;
+}
