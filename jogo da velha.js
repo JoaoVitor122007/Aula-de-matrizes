@@ -71,48 +71,72 @@ function encerraJogo() {
         for(cont in tabuleiro){
             document.getElementById("bt0" + cont).style.color = "red"
         }
-        alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt00").innerText)
+            document.getElementById("bt00").style.backgroundColor = "gray"
+            document.getElementById("bt01").style.backgroundColor = "gray"
+            document.getElementById("bt02").style.backgroundColor = "gray"
+                alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt00").innerText)
     }
     if (document.getElementById("bt10").innerText == document.getElementById("bt11").innerText && document.getElementById("bt11").innerText == document.getElementById("bt12").innerText && document.getElementById("bt10").innerText != "") {
         for(cont in tabuleiro){
             document.getElementById("bt1" + cont).style.color = "red"
         }
-        alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt10").innerText)
+            document.getElementById("bt10").style.backgroundColor = "gray"
+            document.getElementById("bt11").style.backgroundColor = "gray"
+            document.getElementById("bt12").style.backgroundColor = "gray"
+                alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt10").innerText)
     }
     if (document.getElementById("bt20").innerText == document.getElementById("bt21").innerText && document.getElementById("bt21").innerText == document.getElementById("bt22").innerText && document.getElementById("bt20").innerText != "") {
         for(cont in tabuleiro){
             document.getElementById("bt2" + cont).style.color = "red"
         }
-        alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt20").innerText)
+            document.getElementById("bt20").style.backgroundColor = "gray"
+            document.getElementById("bt21").style.backgroundColor = "gray"
+            document.getElementById("bt22").style.backgroundColor = "gray"
+                alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt20").innerText)
     }
     if (document.getElementById("bt00").innerText == document.getElementById("bt10").innerText && document.getElementById("bt10").innerText == document.getElementById("bt20").innerText && document.getElementById("bt00").innerText != "") {
         document.getElementById("bt00").style.color = "red"
         document.getElementById("bt10").style.color = "red"
         document.getElementById("bt20").style.color = "red"
-        alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt00").innerText)
+        document.getElementById("bt00").style.backgroundColor = "gray"
+        document.getElementById("bt10").style.backgroundColor = "gray"
+        document.getElementById("bt20").style.backgroundColor = "gray"
+            alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt00").innerText)
     }
     if (document.getElementById("bt01").innerText == document.getElementById("bt11").innerText && document.getElementById("bt11").innerText == document.getElementById("bt21").innerText && document.getElementById("bt01").innerText != "") {
         document.getElementById("bt01").style.color = "red"
         document.getElementById("bt11").style.color = "red"
         document.getElementById("bt21").style.color = "red"
-        alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt01").innerText)
+        document.getElementById("bt01").style.backgroundColor = "gray"
+        document.getElementById("bt11").style.backgroundColor = "gray"
+        document.getElementById("bt21").style.backgroundColor = "gray"
+            alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt01").innerText)
     }
     if (document.getElementById("bt02").innerText == document.getElementById("bt12").innerText && document.getElementById("bt12").innerText == document.getElementById("bt22").innerText && document.getElementById("bt02").innerText != "") {
         document.getElementById("bt02").style.color = "red"
         document.getElementById("bt12").style.color = "red"
         document.getElementById("bt22").style.color = "red"
-        alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt02").innerText)
+        document.getElementById("bt02").style.backgroundColor = "gray"
+        document.getElementById("bt12").style.backgroundColor = "gray"
+        document.getElementById("bt22").style.backgroundColor = "gray"
+            alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt02").innerText)
     }
     if (document.getElementById("bt00").innerText == document.getElementById("bt11").innerText && document.getElementById("bt11").innerText == document.getElementById("bt22").innerText && document.getElementById("bt00").innerText != "") {
         document.getElementById("bt00").style.color = "red"
         document.getElementById("bt11").style.color = "red"
         document.getElementById("bt22").style.color = "red"
-        alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt00").innerText)
+        document.getElementById("bt00").style.backgroundColor = "gray"
+        document.getElementById("bt11").style.backgroundColor = "gray"
+        document.getElementById("bt22").style.backgroundColor = "gray"
+            alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt00").innerText)
     }
     if (document.getElementById("bt20").innerText == document.getElementById("bt11").innerText && document.getElementById("bt11").innerText == document.getElementById("bt02").innerText && document.getElementById("bt20").innerText != "") {
         document.getElementById("bt20").style.color = "red"
         document.getElementById("bt11").style.color = "red"
         document.getElementById("bt02").style.color = "red"
-        alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt20").innerText)
+        document.getElementById("bt20").style.backgroundColor = "gray"
+        document.getElementById("bt11").style.backgroundColor = "gray"
+        document.getElementById("bt02").style.backgroundColor = "gray"
+            alert("Jogo finalizado" + '\n' + "Vencedor: " + document.getElementById("bt20").innerText)
     }
 }
